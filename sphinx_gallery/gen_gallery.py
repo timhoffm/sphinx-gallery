@@ -1766,8 +1766,3 @@ def setup(app: Sphinx) -> dict[str, Any]:
         "version": _sg_version,
     }
     return metadata
-
-
-def setup_module() -> None:
-    """Hack to stop nosetests running setup() above."""
-    pass
